@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Journey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to StellarSphere</h1>
+        <div class="spaceship" id="spaceship">
+            <img src="ufo11.png" alt="Spaceship" />
+        </div>
+        <div class="journey-container" id="journeyContainer">
+            <button id="startJourney">Start Journey</button>
+        </div>
+        <div class="hidden transition-buttons" id="transitionButtons">
+            <h2>Choose your destination</h2> <!-- Added heading here -->
+            <img id="ConstellationQuest" src="cq.jpg" alt="Constellation Quest" class="button-image" />
+            <img id="GalacticRealm" src="gr.jpg" alt="Galactic Realm" class="button-image" />
+        </div>
+        <audio id="spaceSound" src="amongus.mp3"></audio>
+        <audio id="questSound" src="quest-sound.mp3"></audio>
+        <audio id="ufoSound" src="alienufo.mp3"></audio>
+
+        <div class="space-journey hidden" id="spaceJourneyAnimation">
+            <div class="star"></div>
+            <div class="planet"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
